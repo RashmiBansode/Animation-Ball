@@ -1,0 +1,55 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: outset;
+    background-color: blue;
+
+    animation-name: ball;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ball {
+    10% {
+        transform: translateX(200px) translateY(520px);
+        background-color: rgb(117, 194, 230);
+    }
+
+    20% {
+        transform: translatey(0px) translatex(520px);
+        background-color: blueviolet;
+    }
+
+    30% {
+        transform: translateX(660px) translateY(520px);
+        background-color: black;
+    }
+
+    40% {
+        transform: translatey(0px) translatex(850px);
+        background-color: aquamarine;
+    }
+
+    50% {
+        transform: translatex(1000px) translatey(530px);
+        background-color: yellow;
+    }
+
+    60% {
+        transform: translatey(0px) translatex(1200px);
+        background-color: red;
+    }
+
+    70% {
+        transform: translateX(0px) translateY(500px);
+        background-color: olivedrab;
+    }
+
+    80% {
+        transform: translatey(520px) translatex(0px);
+        background-color: green;
+    }
+
+}
